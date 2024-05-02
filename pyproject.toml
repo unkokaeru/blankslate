@@ -97,5 +97,5 @@ exclude = '(?x)( ^setup\.py$ | ^__pycache__ | ^build )'
 [tool.flake8]
 max-line-length = 88
 exclude = ['.*', 'docs/', '__pycache__', 'setup.py']
-docstring-convention = numpy
+docstring-convention = "numpy"
 ignore = W503
