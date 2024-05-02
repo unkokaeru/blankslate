@@ -2,9 +2,8 @@
 
 import logging
 
-from rich.logging import RichHandler
-
 from config.constants import Constants
+from rich.logging import RichHandler
 
 
 def setup_logging(

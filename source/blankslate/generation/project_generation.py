@@ -2,10 +2,9 @@
 
 from pathlib import Path
 
-from logs.setup_logging import setup_logging
-
 from generation.folder_generation import generate_folder_structure
 from generation.template_rendering import render_template
+from logs.setup_logging import setup_logging
 
 project_logger = setup_logging()
 

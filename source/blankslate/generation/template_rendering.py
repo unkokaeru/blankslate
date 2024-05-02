@@ -1,9 +1,8 @@
 """template_rendering.py: Contains functions for rendering templates."""
 
-from jinja2 import Environment, FileSystemLoader, TemplateNotFound
-
-from logs.setup_logging import setup_logging
 from config.paths import Paths
+from jinja2 import Environment, FileSystemLoader, TemplateNotFound
+from logs.setup_logging import setup_logging
 
 template_logger = setup_logging()
 
