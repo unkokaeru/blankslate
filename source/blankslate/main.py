@@ -15,7 +15,6 @@ Tests (pytest)
 Automatically import VSCode profile
 Input validation
 Interface improvements - GUI, progress bar, etc.
-Update requirements.txt, requirements_dev.txt, and their .j2 counterparts
 
 
 Angular Commit Style (reminder):
