@@ -111,17 +111,13 @@ def input_project_details() -> dict[str, str]:
 
     for detail in details_to_input:
         if detail == "project_author_shorthand":
-            project_details[detail] = name_to_shorthand(
-                project_details["project_author"]
-            )
+            project_details[detail] = name_to_shorthand(project_details["project_author"])
         else:
             formatted_detail = format_detail(detail)
 
             project_details[detail] = input(f"What's the {formatted_detail}? ")
 
-    interface_logger.info(
-        "Great! We've got all the details we need. Are these correct?"
-    )
+    interface_logger.info("Great! We've got all the details we need. Are these correct?")
 
     for detail, value in project_details.items():
         formatted_detail = format_detail(detail)

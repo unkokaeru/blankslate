@@ -48,9 +48,7 @@ def generate_folders(folders: list[str], path: Path) -> None:
         generate_folder(folder, path)
 
 
-def generate_folder_structure(
-    folder_structure: dict[str, list[str]], path: Path
-) -> None:
+def generate_folder_structure(folder_structure: dict[str, list[str]], path: Path) -> None:
     """
     Generate a folder structure.
 
