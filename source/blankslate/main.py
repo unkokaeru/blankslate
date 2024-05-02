@@ -9,10 +9,8 @@ main_logger = setup_logging()
 """
 To-Do List:
 Auto-versioning (python-semantic-release with GitHub actions and angular commit style)
-GitHub workflows
 Auto docs geneneration (Sphinx)
 Tests (pytest)
-Automatically import VSCode profile
 Input validation
 Interface improvements - GUI, progress bar, etc.
 
