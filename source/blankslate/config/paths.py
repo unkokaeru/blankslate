@@ -15,4 +15,7 @@ class Paths:
     """
 
     # Path to the templates directory
-    TEMPLATES_PATH = "C:\\Users\\wills\\Documents\\GitHub\\blankslate\\source\\blankslate\\generation\\templates"
+    TEMPLATES_PATH = (
+        "C:\\Users\\wills\\Documents\\GitHub\\blankslate\\source\\"
+        "blankslate\\generation\\templates"
+    )

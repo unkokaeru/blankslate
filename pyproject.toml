@@ -70,7 +70,12 @@ profile = 'black'
 
 [tool.black]
 line-length = 100
-exclude = ['.*', 'docs']
+exclude = '''
+/(
+    .*        # Excludes all files starting from the root
+    | docs    # Excludes the 'docs' directory
+)/
+'''
 
 [tool.pydocstyle]
 match = '(?!test)(?!setup)[^\._].*\.py'
@@ -96,6 +101,6 @@ exclude = '(?x)( ^setup\.py$ | ^__pycache__ | ^build )'
 
 [tool.flake8]
 max-line-length = 100
-exclude = ['.*', 'docs/', '__pycache__', 'setup.py']
+exclude = ['.*', 'docs/', '**/__pycache__', 'setup.py']
 docstring-convention = "numpy"
-ignore = "W503"
+ignore = ['W503', 'D301']

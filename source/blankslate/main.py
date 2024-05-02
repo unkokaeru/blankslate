@@ -1,4 +1,4 @@
-"""main.py: The main entry point of the application."""
+"""main.py: Enter the application."""
 
 from generation.project_generation import generate_project
 from interface.command_line import input_project_details

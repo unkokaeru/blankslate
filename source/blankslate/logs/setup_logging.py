@@ -1,4 +1,4 @@
-"""setup_logging.py: Setup logging configuration."""
+"""setup_logging.py: Set up the logging configuration."""
 
 import logging
 
@@ -36,7 +36,8 @@ def setup_logging(
     >>> setup_logging(logging_level="INVALID")
     Traceback (most recent call last):
         ...
-    ValueError: Invalid logging level: INVALID. Valid levels are: CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+    ValueError: Invalid logging level: INVALID.
+    Valid levels are:CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
 
     Notes
     -----
@@ -53,7 +54,10 @@ def setup_logging(
 
     if logging_level not in valid_levels:
         raise ValueError(
-            f"Invalid logging level: {logging_level}. Valid levels are: {', '.join(valid_levels.keys())}"
+            "Invalid logging level: "
+            + logging_level
+            + ". \nValid levels are: "
+            + ", ".join(valid_levels.keys())
         )
 
     logging.basicConfig(

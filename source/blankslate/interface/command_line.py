@@ -48,8 +48,28 @@ def name_to_shorthand(name: str) -> str:
 def format_detail(detail: str) -> str:
     """
     Format a detail for user input.
-    :param detail: The detail to format, e.g. "project_name".
-    :return: The formatted detail, e.g. "project name".
+
+    Parameters
+    ----------
+    detail : str
+        The detail to format.
+
+    Returns
+    -------
+    str
+
+    Examples
+    --------
+    >>> format_detail("project_location")
+    'Project Location'
+    >>> format_detail("project_author_shorthand")
+    'Project Author Shorthand'
+    >>> format_detail("project_author_username")
+    'Project Author Username'
+
+    Notes
+    -----
+    This function formats a detail for user input.
     """
     detail_spaced = detail.replace("_", " ", 1)
     detail_lower = detail_spaced.lower()
@@ -63,12 +83,20 @@ def format_detail(detail: str) -> str:
 
 def input_project_details() -> dict[str, str]:
     """
-    Input the project details from the user.
-    :return: A dictionary containing the project details.
+    Input project details.
+
+    Returns
+    -------
+    dict[str, str]
+        The project details.
+
+    Notes
+    -----
+    This function takes user input for project details and returns them as a dictionary.
     """
     interface_logger.info("First up, let's get some details about your project.")
 
-    project_details = {}
+    project_details: dict[str, str] = {}
 
     details_to_input = [
         "project_location",
