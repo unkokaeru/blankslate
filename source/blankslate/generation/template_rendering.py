@@ -34,14 +34,14 @@ def render_template(template: str, output: str, data: dict) -> None:
     template_logger.debug(f"Rendering template: {template}")
     env = Environment(loader=FileSystemLoader(Paths.TEMPLATES_PATH))
     try:
-        template = env.get_template(template)
+        template_obj = env.get_template(template)
     except TemplateNotFound:
         template_logger.error(f"Template not found: {template}")
         return
-    template_logger.debug(f"Template loaded: {template}")
+    template_logger.debug(f"Template loaded: {template_obj}")
 
     # Render the template
-    rendered_template = template.render(data)
+    rendered_template = template_obj.render(data)
     template_logger.debug(f"Template rendered: {rendered_template}")
 
     # Write the rendered template to the output file

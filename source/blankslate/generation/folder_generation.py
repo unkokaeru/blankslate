@@ -89,6 +89,3 @@ def generate_folder_structure(
         if isinstance(subfolders, list):
             folder_logger.debug(f"Generating subfolders: {subfolders}")
             generate_folders(subfolders, current_path)
-        elif isinstance(subfolders, dict):
-            folder_logger.debug(f"Generating subfolders: {subfolders.keys()}")
-            generate_folder_structure(subfolders, current_path)

@@ -109,9 +109,9 @@ def strip_to_folder_structure(full_structure: dict) -> dict:
             if nested_folders:
                 folder_structure[key] = nested_folders
             elif not nested_folders:
-                folder_structure[key] = []
+                folder_structure[key] = {}
         elif isinstance(value, list):
-            folder_structure[key] = []
+            folder_structure[key] = {}
 
     return folder_structure
 
@@ -188,9 +188,9 @@ def generate_project(project_details: dict[str, str]) -> None:
 
     full_structure = {
         ".github": {
-            "workflows": [],
+            "workflows": {},
         },
-        "docs": [],
+        "docs": {},
         "source": {
             project_name: {
                 "config": {
@@ -210,7 +210,7 @@ def generate_project(project_details: dict[str, str]) -> None:
                 "VERSION": None,
             },
         },
-        "tests": [],
+        "tests": {},
         ".gitignore": None,
         "LICENSE": None,
         "pyproject.toml": None,
