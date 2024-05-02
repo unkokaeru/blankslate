@@ -6,14 +6,7 @@ from logs.setup_logging import setup_logging
 
 main_logger = setup_logging()
 
-"""
-To-Do List:
-Auto-versioning (python-semantic-release with GitHub actions and angular commit style)
-Auto docs geneneration (Sphinx)
-Tests (pytest)
-Input validation
-Interface improvements - GUI, progress bar, etc.
-"""
+# TODO: Implement auto-versioning (python-semantic-release?)
 
 
 def run_blankslate() -> None:

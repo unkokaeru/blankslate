@@ -94,6 +94,8 @@ def input_project_details() -> dict[str, str]:
     -----
     This function takes user input for project details and returns them as a dictionary.
     """
+    # TODO: Add input validation
+    # TODO: Improve the interface - GUI, progress bar, etc.
     interface_logger.info("First up, let's get some details about your project.")
 
     project_details: dict[str, str] = {}

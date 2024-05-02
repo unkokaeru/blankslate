@@ -12,4 +12,4 @@ def test_run_blankslate() -> None:
     user input, and generating the project. It does not return
     anything.
     """
-    assert True  # Placeholder
+    assert True  # TODO: Implement tests
