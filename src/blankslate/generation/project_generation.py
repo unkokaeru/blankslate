@@ -110,6 +110,7 @@ def generate_project(project_details: dict[str, str]) -> None:
                     "setup_logging.py": None,
                 },
                 "main.py": None,
+                "VERSION": None,
             },
         },
         "tests": [],
@@ -117,7 +118,7 @@ def generate_project(project_details: dict[str, str]) -> None:
         "LICENSE": None,
         "pyproject.toml": None,
         "README.md": None,
-        "VERSION": None,
+        "requirements.txt": None,
     }
 
     project_logger.info(f"Generating project: {project_name}")

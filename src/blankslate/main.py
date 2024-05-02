@@ -15,6 +15,7 @@ Tests (pytest)
 Automatically import VSCode profile
 Input validation
 Interface improvements - GUI, progress bar, etc.
+Update requirements.txt, requirements_dev.txt, and their .j2 counterparts
 
 Angular Commit Style (reminder):
 <type>(<scope>): <short summary>
@@ -31,7 +32,7 @@ Angular Commit Style (reminder):
 """
 
 
-def main() -> None:
+def run_blankslate(test_var: str) -> bool:
     """The main function of the application."""
     main_logger.info("Application started.")
 
@@ -42,7 +43,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     try:
-        main()
+        run_blankslate()
     except KeyboardInterrupt:
         print("\n")
         main_logger.info("Exiting application due to user interrupt...")
