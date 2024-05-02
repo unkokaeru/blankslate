@@ -2,7 +2,7 @@ pytest==7.2.0
 tox==3.27.0
 pre-commit==2.20.0
 mypy==0.971
-isort==5.10.1
+isort==5.13.2
 black==22.6.0
 Flake8-pyproject==1.1.0.post0
 flake8==5.0.4
