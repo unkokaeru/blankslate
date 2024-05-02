@@ -12,8 +12,36 @@ def setup_logging(
 ) -> logging.Logger:
     """
     Setup logging configuration.
-    :param logging_level: The logging level to set.
-    :return: The logger object.
+
+    Parameters
+    ----------
+    logging_level : str, optional
+        The logging level to set, by default Constants.LOGGING_LEVEL_DEFAULT
+
+    Returns
+    -------
+    logging.Logger
+        The logger instance for the application.
+
+    Raises
+    ------
+    ValueError
+        If the logging level is invalid.
+
+    Examples
+    --------
+    >>> setup_logging()
+    <Logger rich (INFO)>
+    >>> setup_logging(logging_level="DEBUG")
+    <Logger rich (DEBUG)>
+    >>> setup_logging(logging_level="INVALID")
+    Traceback (most recent call last):
+        ...
+    ValueError: Invalid logging level: INVALID. Valid levels are: CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+
+    Notes
+    -----
+    This function sets up the logging configuration for the application.
     """
     valid_levels = {
         "CRITICAL": logging.CRITICAL,

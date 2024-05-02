@@ -8,8 +8,29 @@ interface_logger = setup_logging()
 def name_to_shorthand(name: str) -> str:
     """
     Convert a name to a shorthand version.
-    :param name: The name to convert, e.g. "John Smith".
-    :return: The shorthand version of the name, e.g. "J. Smith".
+
+    Parameters
+    ----------
+    name : str
+        The name to convert.
+
+    Returns
+    -------
+    str
+        The shorthand version of the name.
+
+    Examples
+    --------
+    >>> name_to_shorthand("John Doe")
+    'J. Doe'
+    >>> name_to_shorthand("Jane Smith")
+    'J. Smith'
+    >>> name_to_shorthand("Alice")
+    'Alice'
+
+    Notes
+    -----
+    This function converts a name to a shorthand version.
     """
     name_parts = name.split(" ")
 

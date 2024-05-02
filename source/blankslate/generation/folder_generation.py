@@ -10,9 +10,18 @@ folder_logger = setup_logging()
 
 def generate_folder(folder: str, path: Path) -> None:
     """
-    Generate a folder.
-    :param folder: The folder to generate.
-    :param path: The path to generate the folder in.
+    Generate a single folder.
+
+    Parameters
+    ----------
+    folder : str
+        The folder to generate.
+    path : Path
+        The path to generate the folder in.
+
+    Notes
+    -----
+    This function generates a single folder in the specified path.
     """
     folder_logger.debug(f"Generating folder: {folder}")
     folder_path = path / folder
@@ -23,8 +32,17 @@ def generate_folder(folder: str, path: Path) -> None:
 def generate_folders(folders: list[str], path: Path) -> None:
     """
     Generate multiple folders.
-    :param folders: The folders to generate.
-    :param path: The path to generate the folders in.
+
+    Parameters
+    ----------
+    folders : list[str]
+        The folders to generate.
+    path : Path
+        The path to generate the folders in.
+
+    Notes
+    -----
+    This function generates multiple folders in the specified path.
     """
     for folder in folders:
         generate_folder(folder, path)
@@ -34,9 +52,27 @@ def generate_folder_structure(
     folder_structure: dict[str, list[str]], path: Path
 ) -> None:
     """
-    Generate a folder structure, limited to one level of subfolders.
-    :param folder_structure: The folder structure to generate.
-    :param path: The path to generate the folder structure in.
+    Generate a folder structure.
+
+    Parameters
+    ----------
+    folder_structure : dict[str, list[str]]
+        The folder structure to generate.
+    path : Path
+        The path to generate the folder structure in.
+
+    Examples
+    --------
+    >>> folder_structure = {
+    ...     "folder1": ["subfolder1", "subfolder2"],
+    ...     "folder2": ["subfolder3", "subfolder4"],
+    ... }
+    >>> path = Path("C:/Users/user/Documents/Projects/project")
+    >>> generate_folder_structure(folder_structure, path)
+
+    Notes
+    -----
+    This function generates a folder structure in the specified path.
     """
     if not folder_structure:
         folder_logger.warning("No folder structure to generate.")

@@ -32,8 +32,17 @@ Angular Commit Style (reminder):
 """
 
 
-def run_blankslate(test_var: str) -> bool:
-    """The main function of the application."""
+def run_blankslate() -> None:
+    """
+    Main entry point of the application.
+
+    Notes
+    -----
+    This function is the main entry point of the application.
+    It is responsible for starting the application, taking in
+    user input, and generating the project. It does not return
+    anything.
+    """
     main_logger.info("Application started.")
 
     project_details = input_project_details()
