@@ -6,6 +6,7 @@ Generates a blankslate for a new Python project. Recommended to use the [Blanksl
 
 Uses Angular Commit Style:
 
+```plaintext
 <type>(<scope>): <short summary>
     │       │             │
     │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
@@ -17,5 +18,6 @@ Uses Angular Commit Style:
     │                          devtools
     │
     └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
+```
 
 **Currently in developement.**
