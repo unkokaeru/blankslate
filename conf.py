@@ -1,4 +1,4 @@
-# Configuration file for the Sphinx documentation builder.
+"""conf.py: configuration file for the Sphinx documentation builder."""
 
 project = "blankslate"
 copyright = "2024, William Fayers"
