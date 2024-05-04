@@ -7,3 +7,4 @@ author = "William Fayers"
 extensions = ["sphinx.ext.napoleon"]
 
 html_theme = "alabaster"
+html_static_path = ["_docs_static"]
