@@ -14,7 +14,7 @@ To install Blankslate, run the following command in your terminal:
 
 .. code-block:: bash
 
-    pip install blankslate
+    pip install blankslate-python
 
 Getting Started
 ---------------
@@ -23,7 +23,7 @@ Once installed, you can create a new project by executing:
 
 .. code-block:: bash
 
-    blankslate
+    blankslate-python
 
 Follow the prompts to specify your project details. Blankslate will set up the project in your specified directory. Then, you can push this project to GitHub and begin coding in the `source/PROJECT_NAME/` directory.
 
@@ -31,7 +31,7 @@ Features
 --------
 
 - **Automatic Project Setup**: Generates a Python project configured with best practices, including a GitHub Actions workflow.
-- **Semantic Versioning**: Use `./scripts/release.sh VERSION_NUMBER` to manage versions and generate a changelog. Follow [semantic versioning](https://semver.org).
+- **Semantic Versioning**: Use `./scripts/release.sh VERSION_NUMBER` to manage versions and generate a changelog. Follow [semantic versioning](https://semver.org). Note that this will automatically build and publish the project to PyPi, too.
 - **Angular Commit Style**: Ensure your commits follow the [Angular commit style guidelines](https://gist.github.com/brianclements/841ea7bffdb01346392c#commit-message-header).
 - **Documentation Automation**: Automatically generates and updates documentation on GitHub Pages.
 - **TODO Issue Tracker**: Converts `# TODO` comments in Python code into GitHub issues. Ensure correct repository settings to enable this feature.
