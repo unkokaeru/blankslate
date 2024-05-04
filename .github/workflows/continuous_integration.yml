@@ -106,6 +106,9 @@ jobs:
           path: .tox
           key: 3.11-tox-${{ hashFiles('pyproject.toml') }}-${{ hashFiles('tox.ini') }}
 
+      - name: Set Python Path
+        run: echo "PYTHONPATH=${{ github.workspace }}/source:${{ github.workspace }}/logs" >> $GITHUB_ENV
+
       - name: Build documentation with tox
         run: tox -e docs
 
