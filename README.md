@@ -4,7 +4,7 @@
 
 Generates a blankslate for a new Python project. Recommended to use the [Blankslate Extension Pack](https://marketplace.visualstudio.com/items?itemName=unkokaeru.blankslate-extension-pack).
 
-Uses Angular Commit Style:
+Uses Angular Commit Style (reference below from [here](https://gist.github.com/brianclements/841ea7bffdb01346392c#commit-message-header)):
 
 ```plaintext
 <type>(<scope>): <short summary>
