@@ -48,7 +48,7 @@ def generate_folders(folders: list[str], path: Path) -> None:
         generate_folder(folder, path)
 
 
-def generate_folder_structure(folder_structure: dict[str, list[str]], path: Path) -> None:
+def generate_folder_structure(folder_structure: dict, path: Path) -> None:
     """
     Generate a folder structure.
 
@@ -87,3 +87,6 @@ def generate_folder_structure(folder_structure: dict[str, list[str]], path: Path
         if isinstance(subfolders, list):
             folder_logger.debug(f"Generating subfolders: {subfolders}")
             generate_folders(subfolders, current_path)
+        elif isinstance(subfolders, dict):
+            folder_logger.debug(f"Generating subfolders (recursively): {subfolders}")
+            generate_folder_structure(subfolders, current_path)

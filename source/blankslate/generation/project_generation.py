@@ -245,6 +245,4 @@ def generate_project(project_details: dict[str, str]) -> None:
     generate_folder_structure(folder_structure, Path(project_location))
 
     for file_name, file_path in file_structure:
-        render_template(
-            file_name + ".j2", Path(project_location) / file_path, project_details
-        )  # TODO: fix
+        render_template(file_name + ".j2", Path(project_location) / file_path, project_details)
