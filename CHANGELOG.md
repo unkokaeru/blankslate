@@ -27,6 +27,16 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Feat: pypi publisher, renamed package to blankslate-python. [William
+  F]
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 0.3.0 -> 1.0.0. [William F]
+- Update CHANGELOG.md. [William F]
 - Docs: added contribution file and updated docs/docs generation.
   [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
