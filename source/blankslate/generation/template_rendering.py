@@ -35,7 +35,9 @@ def render_template(template: str, output: Path, data: dict) -> None:
     """
     # Initialize Jinja2 environment and load template
     template_logger.debug(f"Rendering template: {template}")
-    env = Environment(loader=FileSystemLoader(Paths.TEMPLATES_PATH), trim_blocks=False)
+    env = Environment(
+        loader=FileSystemLoader(Paths.TEMPLATES_PATH), trim_blocks=False
+    )  # TODO: Fix lack of new line at the end of rendered templates
     try:
         template_obj = env.get_template(template)
     except TemplateNotFound:
