@@ -246,5 +246,5 @@ def generate_project(project_details: dict[str, str]) -> None:
 
     for file_name, file_path in file_structure:
         render_template(
-            file_name + ".j2", Path(project_location + file_path), project_details
+            file_name + ".j2", Path(project_location) / file_path, project_details
         )  # TODO: fix
