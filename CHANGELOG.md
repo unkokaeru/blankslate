@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Temporary file generation for template use. [William F]
 - Package name typo. [William F]
 - Use importlib for template fetching. [William F]
 - Added templates to pypi. [William F]
@@ -36,6 +37,11 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.1.6 -> 1.1.7. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
