@@ -7,6 +7,9 @@ Changelog
 
 Fix
 ~~~
+- Package name typo. [William F]
+- Use importlib for template fetching. [William F]
+- Added templates to pypi. [William F]
 - Path concat operator. [William F]
 - Skip jinja syntax. [William F]
 - Relative paths. [William F]
@@ -33,6 +36,11 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.1.5 -> 1.1.6. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
