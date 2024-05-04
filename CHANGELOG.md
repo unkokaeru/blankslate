@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Main template. [William F]
 - Leave ending new lines in templates. [William F]
 - Generalised path cloning and fixed template. [William F]
 - Recursive folder generation. [William F]
@@ -40,6 +41,12 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Docs: added todo. [William F]
+- Bump version: 1.1.9 -> 1.1.10. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
