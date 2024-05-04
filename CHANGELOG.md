@@ -7,6 +7,8 @@ Changelog
 
 Fix
 ~~~
+- Leave ending new lines in templates. [William F]
+- Generalised path cloning and fixed template. [William F]
 - Recursive folder generation. [William F]
 - Temporary file generation for template use. [William F]
 - Package name typo. [William F]
@@ -38,6 +40,12 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Docs: newline after docstring. [William F]
+- Bump version: 1.1.8 -> 1.1.9. [William F]
+- Update CHANGELOG.md. [William F]
 - Docs: type correction. [William F]
 - Docs: added doc string. [William F]
 - Bump version: 1.1.7 -> 1.1.8. [William F]
