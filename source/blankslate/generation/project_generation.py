@@ -188,9 +188,16 @@ def generate_project(project_details: dict[str, str]) -> None:
 
     full_structure = {
         ".github": {
-            "workflows": {},
+            "workflows": {
+                "continuous_integration.yml": None,
+                "todo_to_issue.yml": None,
+            },
+        },
+        ".vscode": {
+            "extensions.json": None,
         },
         "docs": {},
+        "scripts": {"release.sh"},
         "source": {
             project_name: {
                 "config": {
@@ -207,15 +214,22 @@ def generate_project(project_details: dict[str, str]) -> None:
                     "setup_logging.py": None,
                 },
                 "main.py": None,
+                "py.typed": None,
                 "VERSION": None,
             },
         },
         "tests": {},
         ".gitignore": None,
+        ".pre-commit-config.yaml": None,
+        "CHANGELOG.md": None,
+        "conf.py": None,
+        "index.rst": None,
         "LICENSE": None,
         "pyproject.toml": None,
         "README.md": None,
+        "requirements-dev.txt": None,
         "requirements.txt": None,
+        "tox.ini": None,
     }
 
     project_logger.info(f"Generating project: {project_name}")
