@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Newline in version. [William F]
 - Blankslate-python call for terminal. [William F]
 - Renamed main to add command line functionality. [William F]
 - Readme template. [William F]
@@ -29,6 +30,9 @@ Fix
 
 Other
 ~~~~~
+- Docs: fix newline after docstring. [William F]
+- Bump version: 1.1.1 -> 1.1.2. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
