@@ -37,14 +37,14 @@
 <section id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h1>
 <p>To install Blankslate, run the following command in your terminal:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>blankslate
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>blankslate-python
 </pre></div>
 </div>
 </section>
 <section id="getting-started">
 <h1>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading">¶</a></h1>
 <p>Once installed, you can create a new project by executing:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>blankslate
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>blankslate-python
 </pre></div>
 </div>
 <p>Follow the prompts to specify your project details. Blankslate will set up the project in your specified directory. Then, you can push this project to GitHub and begin coding in the <cite>source/PROJECT_NAME/</cite> directory.</p>
@@ -53,7 +53,7 @@
 <h1>Features<a class="headerlink" href="#features" title="Link to this heading">¶</a></h1>
 <ul class="simple">
 <li><p><strong>Automatic Project Setup</strong>: Generates a Python project configured with best practices, including a GitHub Actions workflow.</p></li>
-<li><p><strong>Semantic Versioning</strong>: Use <cite>./scripts/release.sh VERSION_NUMBER</cite> to manage versions and generate a changelog. Follow [semantic versioning](<a class="reference external" href="https://semver.org">https://semver.org</a>).</p></li>
+<li><p><strong>Semantic Versioning</strong>: Use <cite>./scripts/release.sh VERSION_NUMBER</cite> to manage versions and generate a changelog. Follow [semantic versioning](<a class="reference external" href="https://semver.org">https://semver.org</a>). Note that this will automatically build and publish the project to PyPi, too.</p></li>
 <li><p><strong>Angular Commit Style</strong>: Ensure your commits follow the [Angular commit style guidelines](<a class="reference external" href="https://gist.github.com/brianclements/841ea7bffdb01346392c#commit-message-header">https://gist.github.com/brianclements/841ea7bffdb01346392c#commit-message-header</a>).</p></li>
 <li><p><strong>Documentation Automation</strong>: Automatically generates and updates documentation on GitHub Pages.</p></li>
 <li><p><strong>TODO Issue Tracker</strong>: Converts <cite># TODO</cite> comments in Python code into GitHub issues. Ensure correct repository settings to enable this feature.</p></li>
