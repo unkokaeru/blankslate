@@ -17,6 +17,7 @@ include = ["LICENSE", "source/blankslate/py.typed", "source/blankslate/VERSION"]
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
 Jinja2 = "^3.0.0"
+rich = "^12.0.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.2.0"
