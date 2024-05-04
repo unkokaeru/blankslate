@@ -12,7 +12,7 @@ readme = "README.md"
 packages = [{include = "blankslate", from = "source"}]
 homepage = "https://github.com/unkokaeru/blankslate"
 repository = "https://github.com/unkokaeru/blankslate"
-include = ["LICENSE", "source/blankslate/py.typed", "source/blankslate/VERSION"]
+include = ["LICENSE", "source/blankslate/py.typed", "source/blankslate/VERSION", "source/blankslate/generation/templates"]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
