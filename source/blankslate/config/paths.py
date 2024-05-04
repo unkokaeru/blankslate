@@ -1,5 +1,7 @@
 """paths.py: Contains paths for the application."""
 
+import os
+
 
 class Paths:
     """
@@ -14,8 +16,9 @@ class Paths:
     separating words.
     """
 
+    # Path to the root directory of the package
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    SOURCE_DIR = os.path.join(BASE_DIR, "source", "blankslate")
+
     # Path to the templates directory
-    TEMPLATES_PATH = (
-        "C:\\Users\\wills\\Documents\\GitHub\\blankslate\\source\\"
-        "blankslate\\generation\\templates"
-    )
+    TEMPLATES_PATH = os.path.join(SOURCE_DIR, "generation", "templates")
