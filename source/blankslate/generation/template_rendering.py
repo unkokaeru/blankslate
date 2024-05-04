@@ -39,7 +39,7 @@ def render_template(template: str, output: Path, data: dict) -> None:
     try:
         template_obj = env.get_template(template)
     except TemplateNotFound:
-        template_logger.error(f"Template not found: {template}")
+        template_logger.error(f"Template not found: {template} (at {Paths.TEMPLATES_PATH})")
         return
     template_logger.debug(f"Template loaded: {template_obj}")
 
