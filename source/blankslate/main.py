@@ -15,7 +15,6 @@ def main() -> None:
     -----
     This function is the entry point for the application.
     """
-
     try:
         main_logger.info("Application started.")
         project_details = input_project_details()
