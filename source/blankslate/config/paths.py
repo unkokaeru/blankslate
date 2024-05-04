@@ -18,41 +18,34 @@ class Paths:
     with underscores separating words.
     """
 
-    # Create a temporary directory to store templates
     temp_dir = Path(tempfile.mkdtemp())
 
-    # Path to the templates directory; we'll copy them to the temporary directory
     @classmethod
-    def setup_templates(cls) -> None:
+    def temporary_clone(cls, directory_to_clone: str) -> None:
         """
-        Setup the templates for the application.
+        Create a temporary clone of a directory.
 
         Parameters
         ----------
         cls : Paths
             The class instance.
+        directory_to_clone : str
+            The directory to clone.
 
         Notes
         -----
-        This method copies the templates from the package directory to a temporary directory.
+        This method creates a temporary clone of a directory.
         """
-        # Access the package directory for templates
-        templates_package = resources.files("blankslate.generation.templates")
+        package_to_clone = resources.files(directory_to_clone)
 
-        # Ensure the temporary directory is clear (useful for reinitialising or debugging)
         shutil.rmtree(cls.temp_dir)
         cls.temp_dir.mkdir(parents=True, exist_ok=True)
 
-        # Copy files from the Traversable object to the temporary directory
-        for template in templates_package.iterdir():
-            if template.is_file():
-                shutil.copy(str(template), str(cls.temp_dir))
+        for file in package_to_clone.iterdir():
+            if file.is_file():
+                shutil.copy(str(file), str(cls.temp_dir))
 
-    # Get the path to the temporary directory
     TEMPLATES_PATH = temp_dir
 
-    # TODO: Correct temporary directory generation to follow best practices and avoid security risks
 
-
-# Initialise the setup at import
-Paths.setup_templates()
+Paths.temporary_clone("blankslate.generation.templates")
