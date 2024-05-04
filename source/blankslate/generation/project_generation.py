@@ -223,6 +223,7 @@ def generate_project(project_details: dict[str, str]) -> None:
         ".pre-commit-config.yaml": None,
         "CHANGELOG.md": None,
         "conf.py": None,
+        "CONTRIBUTING.md": None,
         "index.rst": None,
         "LICENSE": None,
         "pyproject.toml": None,
