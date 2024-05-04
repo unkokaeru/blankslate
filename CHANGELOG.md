@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Renamed main to add command line functionality. [William F]
 - Readme template. [William F]
 - Updates VERSION too. [William F]
 - Add changelog into md file on release. [William F]
@@ -27,6 +28,11 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.0.0 -> 1.1.0. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
