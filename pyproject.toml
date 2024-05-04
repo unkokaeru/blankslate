@@ -3,7 +3,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "blankslate"
+name = "blankslate-python"
 version = "1.0.0"
 description = "A blank slate for Python projects"
 authors = ["William Fayers <wills@fayers.com>"]

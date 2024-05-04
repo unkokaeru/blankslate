@@ -49,3 +49,9 @@ git commit -m "Bump version: $current_version -> $new_version"
 git tag -a "v$new_version" -m "Release $new_version"
 
 git push --follow-tags
+
+# Build the package for PyPI
+poetry build
+
+# Publish the package to PyPI
+poetry publish
