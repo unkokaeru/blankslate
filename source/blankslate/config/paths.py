@@ -36,7 +36,6 @@ class Paths:
         -----
         This method copies the templates from the package directory to a temporary directory.
         """
-
         # Access the package directory for templates
         templates_package = resources.files("blankslate.generation.templates")
 
