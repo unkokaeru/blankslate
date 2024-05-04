@@ -12,6 +12,17 @@ Subpackages
    blankslate.interface
    blankslate.logs
 
+Submodules
+----------
+
+blankslate.main module
+----------------------
+
+.. automodule:: blankslate.main
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Module contents
 ---------------
 
