@@ -36,6 +36,16 @@ Other
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
+- Cli: added debugging to template path. [William F]
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Docs: added TODOs. [William F]
+- Bump version: 1.1.4 -> 1.1.5. [William F]
+- Update CHANGELOG.md. [William F]
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
 - Bump version: 1.1.3 -> 1.1.4. [William F]
 - Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
