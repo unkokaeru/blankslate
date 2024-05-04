@@ -54,7 +54,7 @@ def generate_folder_structure(folder_structure: dict, path: Path) -> None:
 
     Parameters
     ----------
-    folder_structure : dict[str, list[str]]
+    folder_structure : dict
         The folder structure to generate.
     path : Path
         The path to generate the folder structure in.
