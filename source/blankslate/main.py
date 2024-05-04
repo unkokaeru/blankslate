@@ -1,8 +1,8 @@
 """main.py: Enter the application."""
 
-from generation.project_generation import generate_project
-from interface.command_line import input_project_details
-from logs.setup_logging import setup_logging
+from .generation.project_generation import generate_project
+from .interface.command_line import input_project_details
+from .logs.setup_logging import setup_logging
 
 main_logger = setup_logging()
 

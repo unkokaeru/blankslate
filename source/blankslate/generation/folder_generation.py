@@ -3,7 +3,7 @@
 import os
 from pathlib import Path
 
-from logs.setup_logging import setup_logging
+from ..logs.setup_logging import setup_logging
 
 folder_logger = setup_logging()
 

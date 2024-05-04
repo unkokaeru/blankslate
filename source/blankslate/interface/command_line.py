@@ -1,6 +1,6 @@
 """command_line.py - Command line interface for the application."""
 
-from logs.setup_logging import setup_logging
+from ..logs.setup_logging import setup_logging
 
 interface_logger = setup_logging()
 
