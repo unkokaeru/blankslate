@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Blankslate-python call for terminal. [William F]
 - Renamed main to add command line functionality. [William F]
 - Readme template. [William F]
 - Updates VERSION too. [William F]
@@ -28,6 +29,11 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.1.0 -> 1.1.1. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
