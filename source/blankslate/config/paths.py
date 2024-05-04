@@ -17,5 +17,5 @@ class Paths:
     """
 
     # Path to the templates directory
-    with resources.path("mypackage.templates", "") as templates_path:
+    with resources.path("blankslate.generation.templates", "") as templates_path:
         TEMPLATES_PATH = templates_path
