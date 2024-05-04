@@ -1,27 +1,24 @@
-"""main.py: The main entry point of the application."""
+"""main.py: Called when the package is run as a script."""
 
 from .logs.setup_logging import setup_logging
 
 main_logger = setup_logging()
 
-"""
-To-do:
-- Add the main function.
-
-To-fix:
-- Nothing, whoop whoop!
-"""
-
 
 def main() -> None:
-    """The main function of the application."""
-    main_logger.info("Application started.")
+    """
+    Main function for the application.
 
-    # Add your code here.
+    Notes
+    -----
+    This function is the entry point for the application.
+    """
+    try:
+        main_logger.info("Application started.")
+    except KeyboardInterrupt:
+        print("\n")
+        main_logger.info("Exiting application due to user interrupt...")
 
 
 if __name__ == "__main__":
-    try:
-        main()
-    except KeyboardInterrupt:
-        main_logger.info("Exiting application due to user interrupt...")
+    main()
