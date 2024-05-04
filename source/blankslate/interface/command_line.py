@@ -96,6 +96,8 @@ def input_project_details() -> dict[str, str]:
     """
     # TODO: Add input validation
     # TODO: Improve the interface - GUI, progress bar, etc.
+    # TODO: Autofill details from system information
+    # TODO: Make dialogue configurable - e.g. for different languages
     interface_logger.info("First up, let's get some details about your project.")
 
     project_details: dict[str, str] = {}
