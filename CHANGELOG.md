@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Path concat operator. [William F]
 - Skip jinja syntax. [William F]
 - Relative paths. [William F]
 - Newline in version. [William F]
@@ -32,6 +33,11 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.1.3 -> 1.1.4. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
