@@ -7,6 +7,8 @@ Changelog
 
 Fix
 ~~~
+- Skip jinja syntax. [William F]
+- Relative paths. [William F]
 - Newline in version. [William F]
 - Blankslate-python call for terminal. [William F]
 - Renamed main to add command line functionality. [William F]
@@ -30,6 +32,11 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.1.2 -> 1.1.3. [William F]
+- Update CHANGELOG.md. [William F]
 - Docs: fix newline after docstring. [William F]
 - Bump version: 1.1.1 -> 1.1.2. [William F]
 - Update CHANGELOG.md. [William F]
