@@ -20,4 +20,6 @@ Uses Angular Commit Style (reference below from [here](https://gist.github.com/b
     └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
 ```
 
+Use `.\scripts\release.sh VERSION_NUM` to bump version to VERSION_NUM, using [semantic versioning](https://semver.org).
+
 **Currently in developement.**

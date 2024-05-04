@@ -6,8 +6,6 @@ from .logs.setup_logging import setup_logging
 
 main_logger = setup_logging()
 
-# TODO: Implement auto-versioning (python-semantic-release?)
-
 
 def run_blankslate() -> None:
     """
