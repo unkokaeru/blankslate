@@ -24,7 +24,7 @@ fi
 echo '' > CHANGELOG.md
 
 # Update the changelog
-gitchangelog
+gitchangelog > CHANGELOG.md
 git add CHANGELOG.md
 git commit -m "Update CHANGELOG.md"
 
