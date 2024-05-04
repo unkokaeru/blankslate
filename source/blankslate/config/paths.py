@@ -24,6 +24,19 @@ class Paths:
     # Path to the templates directory; we'll copy them to the temporary directory
     @classmethod
     def setup_templates(cls) -> None:
+        """
+        Setup the templates for the application.
+
+        Parameters
+        ----------
+        cls : Paths
+            The class instance.
+
+        Notes
+        -----
+        This method copies the templates from the package directory to a temporary directory.
+        """
+
         # Access the package directory for templates
         templates_package = resources.files("blankslate.generation.templates")
 
