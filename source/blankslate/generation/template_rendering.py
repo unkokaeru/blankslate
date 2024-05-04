@@ -1,5 +1,7 @@
 """template_rendering.py: Contains functions for rendering templates."""
 
+from pathlib import Path
+
 from jinja2 import Environment, FileSystemLoader, TemplateNotFound
 
 from ..config.paths import Paths
@@ -8,7 +10,7 @@ from ..logs.setup_logging import setup_logging
 template_logger = setup_logging()
 
 
-def render_template(template: str, output: str, data: dict) -> None:
+def render_template(template: str, output: Path, data: dict) -> None:
     """
     Render a Jinja2 template and save it to a file.
 
@@ -16,7 +18,7 @@ def render_template(template: str, output: str, data: dict) -> None:
     ----------
     template : str
         The template to render.
-    output : str
+    output : Path
         The output file to save the rendered template to.
     data : dict
         The data to render the template with.
