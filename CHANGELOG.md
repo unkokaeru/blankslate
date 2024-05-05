@@ -57,6 +57,12 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Feat: added test template generation. [William F]
+- Bump version: 1.2.4 -> 1.2.5. [William F]
+- Update CHANGELOG.md. [William F]
 - @auto Update docs. [unkokaeru]
 - Bump version: 1.2.3 -> 1.2.4. [William F]
 - Update CHANGELOG.md. [William F]
