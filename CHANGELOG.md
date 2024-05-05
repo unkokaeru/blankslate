@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Sphinx set-up. [William F]
 - Modified docs generation. [William F]
 - Delete old docs. [William F]
 - Attempt to fix css in docs html. [William F]
@@ -48,6 +49,8 @@ Fix
 
 Other
 ~~~~~
+- Bump version: 1.2.0 -> 1.2.1. [William F]
+- Update CHANGELOG.md. [William F]
 - Docs: added todo. [William F]
 - @auto Update docs. [unkokaeru]
 - Create CNAME. [William F]
