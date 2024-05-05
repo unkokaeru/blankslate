@@ -7,6 +7,11 @@ Changelog
 
 Fix
 ~~~
+- Added base url to sphix conf. [William F]
+- Corrected docs generation in blankslate-generated projects. [William
+  F]
+- Directory to push to gh pages. [William F]
+- Moved CNAME into build directory. [William F]
 - Sphinx set-up. [William F]
 - Modified docs generation. [William F]
 - Delete old docs. [William F]
@@ -49,6 +54,22 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Create CNAME. [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.2.1 -> 1.2.2. [William F]
+- Update CHANGELOG.md. [William F]
 - Bump version: 1.2.0 -> 1.2.1. [William F]
 - Update CHANGELOG.md. [William F]
 - Docs: added todo. [William F]
