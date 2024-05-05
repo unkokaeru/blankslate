@@ -33,7 +33,7 @@ def render_template(template: str, output: Path, data: dict) -> None:
     This function renders a Jinja2 template with the provided data
     and saves the rendered template to the output file.
     """
-    # Initialize Jinja2 environment and load template
+    # Initialize Jinja2 environment and load template # TODO: Migrate to cookiecutter
     template_logger.debug(f"Rendering template: {template}")
     env = Environment(
         loader=FileSystemLoader(Paths.TEMPLATES_PATH), trim_blocks=False
