@@ -7,6 +7,8 @@ Changelog
 
 Fix
 ~~~
+- Added .nojekyll so the documenation site doesn't ignore _static/
+  [William F]
 - Release.sh generation. [William F]
 - Removed leftover code. [William F]
 - Updated default usage in readme template. [William F]
@@ -57,6 +59,11 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.2.5 -> 1.3.0. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
