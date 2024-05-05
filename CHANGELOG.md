@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Release.sh generation. [William F]
 - Removed leftover code. [William F]
 - Updated default usage in readme template. [William F]
 - Added base url to sphix conf. [William F]
@@ -56,6 +57,9 @@ Fix
 
 Other
 ~~~~~
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.2.3 -> 1.2.4. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
