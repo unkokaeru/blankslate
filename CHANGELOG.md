@@ -7,6 +7,8 @@ Changelog
 
 Fix
 ~~~
+- Removed leftover code. [William F]
+- Updated default usage in readme template. [William F]
 - Added base url to sphix conf. [William F]
 - Corrected docs generation in blankslate-generated projects. [William
   F]
@@ -54,6 +56,14 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.2.2 -> 1.2.3. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
