@@ -7,6 +7,13 @@ Changelog
 
 Fix
 ~~~
+- Modified docs generation. [William F]
+- Delete old docs. [William F]
+- Attempt to fix css in docs html. [William F]
+- Removed docs to find bug in generation. [William F]
+- Removed docs to find bug in generation. [William F]
+- Removed duplicate directory. [William F]
+- Remove docs, duplicates were being created. [William F]
 - Main template. [William F]
 - Leave ending new lines in templates. [William F]
 - Generalised path cloning and fixed template. [William F]
@@ -41,6 +48,24 @@ Fix
 
 Other
 ~~~~~
+- Docs: added todo. [William F]
+- @auto Update docs. [unkokaeru]
+- Create CNAME. [William F]
+- @auto Update docs. [unkokaeru]
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Create CNAME. [William F]
+- @auto Update docs. [unkokaeru]
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Delete docs directory. [William F]
+- @auto Update docs. [unkokaeru]
+- Docs: undid change. [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.1.10 -> 1.2.0. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
