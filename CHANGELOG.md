@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Pyproject template missing script call. [William F]
 - Added .nojekyll so the documenation site doesn't ignore _static/
   [William F]
 - Release.sh generation. [William F]
@@ -59,6 +60,9 @@ Fix
 
 Other
 ~~~~~
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.3.0 -> 1.3.1. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
