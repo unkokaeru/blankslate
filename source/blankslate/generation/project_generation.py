@@ -228,7 +228,7 @@ def generate_project(project_details: dict[str, str]) -> None:
                 "VERSION": None,
             },
         },
-        "tests": {},
+        "tests": {"__init__.py": None, "test_main.py": None},
         ".gitignore": None,
         ".pre-commit-config.yaml": None,
         "CHANGELOG.md": None,
