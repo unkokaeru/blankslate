@@ -207,7 +207,7 @@ def generate_project(project_details: dict[str, str]) -> None:
             "make.bat": None,
             "Makefile": None,
         },
-        "scripts": {"release.sh"},
+        "scripts": {"release.sh": None},
         "source": {
             project_name: {
                 "config": {
