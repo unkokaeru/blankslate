@@ -70,8 +70,8 @@ setenv =
 deps =
     sphinx
 commands =
-    sphinx-apidoc -f -o "{env:DOCSDIR}/source" "{env:SOURCEDIR}"
-    sphinx-build -b html "{toxinidir}" "{env:DOCSDIR}"
+    sphinx-apidoc -f -o "{env:DOCSDIR}/source/" "{env:SOURCEDIR}/"
+    sphinx-build -M html "{env:DOCSDIR}/source/" "{env:DOCSDIR}/build/"
 
 
 [testenv:release]

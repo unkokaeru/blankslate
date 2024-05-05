@@ -27,7 +27,7 @@ Follow the prompts to specify your project details. Blankslate will create the p
 - **Automatic Project Structure Creation**: Sets up a GitHub-ready Python project with best practices.
 - **Semantic Versioning**: Use the script `./scripts/release.sh VERSION_NUMBER` to auto-version and generate a changelog. Ensure `VERSION_NUMBER` follows [semantic versioning](https://semver.org). Note that this will automatically build and publish the project to PyPi, too.
 - **Commit Style**: Commits should follow the [Angular commit style](https://gist.github.com/brianclements/841ea7bffdb01346392c#commit-message-header).
-- **Documentation**: Automatically generates and pushes documentation to GitHub pages. Make sure your GitHub repository is configured under `Settings -> Pages`.
+- **Documentation**: Automatically generates and pushes documentation to GitHub pages. Make sure your GitHub repository is configured under `Settings -> Pages` and set the deployment branch to `docs/(root)`.
 - **TODO to GitHub Issues**: Converts `# TODO` comments in your Python code into GitHub issues. Configure this in `Settings -> Actions (General) -> Workflow permissions` and enable "Read and write permissions".
 
 ## Extensions

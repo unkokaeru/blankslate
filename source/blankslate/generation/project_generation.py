@@ -196,7 +196,17 @@ def generate_project(project_details: dict[str, str]) -> None:
         ".vscode": {
             "extensions.json": None,
         },
-        "docs": {},
+        "docs": {
+            "build": {},
+            "source": {
+                "_static": {},
+                "_templates": {},
+                "conf.py": None,
+                "index.rst": None,
+            },
+            "make.bat": None,
+            "Makefile": None,
+        },
         "scripts": {"release.sh"},
         "source": {
             project_name: {
@@ -222,9 +232,7 @@ def generate_project(project_details: dict[str, str]) -> None:
         ".gitignore": None,
         ".pre-commit-config.yaml": None,
         "CHANGELOG.md": None,
-        "conf.py": None,
         "CONTRIBUTING.md": None,
-        "index.rst": None,
         "LICENSE": None,
         "pyproject.toml": None,
         "README.md": None,
