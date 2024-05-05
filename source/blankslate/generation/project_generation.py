@@ -197,7 +197,7 @@ def generate_project(project_details: dict[str, str]) -> None:
             "extensions.json": None,
         },
         "docs": {
-            "build": {},
+            "build": {".nojekyll": None},
             "source": {
                 "_static": {},
                 "_templates": {},
