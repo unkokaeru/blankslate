@@ -77,7 +77,6 @@ def format_detail(detail: str) -> str:
     detail_formatted = (
         detail_spaced if detail_spaced == detail_bracketed else detail_bracketed + ")"
     )
-    detail_formatted = detail_formatted.replace("-", "_")  # TODO: Improve handling of hyphens
 
     return detail_formatted
 
@@ -135,5 +134,9 @@ def input_project_details() -> dict[str, str]:
     interface_logger.info("Thanks! We're all set.")
 
     interface_logger.debug(f"Project details: {project_details}")
+
+    project_details["project_name"] = project_details["project_name"].replace(
+        "-", "_"
+    )  # TODO: Improve handling of hyphens
 
     return project_details
