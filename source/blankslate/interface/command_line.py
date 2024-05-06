@@ -1,4 +1,4 @@
-"""command_line.py - Command line interface for the application."""
+"""command_line.py: Command line interface for the application."""
 
 from ..logs.setup_logging import setup_logging
 
