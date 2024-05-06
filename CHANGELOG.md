@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Hyphen handling. [William F]
 - Formatting and TODOs. [William F]
 - Pyproject template missing script call. [William F]
 - Added .nojekyll so the documenation site doesn't ignore _static/
@@ -61,6 +62,11 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.3.2 -> 1.3.3. [William F]
+- Update CHANGELOG.md. [William F]
 - @auto Update docs. [unkokaeru]
 - Bump version: 1.3.1 -> 1.3.2. [William F]
 - Update CHANGELOG.md. [William F]
