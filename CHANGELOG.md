@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Minor bugs. [William F]
 - Hyphen handling. [William F]
 - Formatting and TODOs. [William F]
 - Pyproject template missing script call. [William F]
@@ -62,6 +63,11 @@ Fix
 
 Other
 ~~~~~
+- Merge branch 'main' of https://github.com/unkokaeru/blankslate.
+  [William F]
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.3.3 -> 1.3.4. [William F]
+- Update CHANGELOG.md. [William F]
 - Merge branch 'main' of https://github.com/unkokaeru/blankslate.
   [William F]
 - @auto Update docs. [unkokaeru]
