@@ -7,6 +7,7 @@ Changelog
 
 Fix
 ~~~
+- Formatting and TODOs. [William F]
 - Pyproject template missing script call. [William F]
 - Added .nojekyll so the documenation site doesn't ignore _static/
   [William F]
@@ -60,6 +61,9 @@ Fix
 
 Other
 ~~~~~
+- @auto Update docs. [unkokaeru]
+- Bump version: 1.3.1 -> 1.3.2. [William F]
+- Update CHANGELOG.md. [William F]
 - @auto Update docs. [unkokaeru]
 - Bump version: 1.3.0 -> 1.3.1. [William F]
 - Update CHANGELOG.md. [William F]
