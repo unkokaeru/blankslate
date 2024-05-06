@@ -223,6 +223,7 @@ def generate_project(project_details: dict[str, str]) -> None:
                     "__init__.py": None,
                     "setup_logging.py": None,
                 },
+                "__init__.py": None,
                 "main.py": None,
                 "py.typed": None,
                 "VERSION": None,

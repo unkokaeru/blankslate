@@ -77,6 +77,7 @@ def format_detail(detail: str) -> str:
     detail_formatted = (
         detail_spaced if detail_spaced == detail_bracketed else detail_bracketed + ")"
     )
+    detail_formatted = detail_formatted.replace("-", "_")  # TODO: Improve handling of hyphens
 
     return detail_formatted
 

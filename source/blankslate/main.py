@@ -18,7 +18,7 @@ def main() -> None:
     try:
         main_logger.info("Application started.")
         project_details = input_project_details()
-        generate_project(project_details)
+        generate_project(project_details)  # TODO: add auto GitHub repo publish
     except KeyboardInterrupt:
         print("\n")
         main_logger.info("Exiting application due to user interrupt...")
