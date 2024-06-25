@@ -148,6 +148,8 @@ def input_project_details() -> dict[str, str]:
 
     interface_logger.debug(f"Project details: {project_details}")
 
+    project_details["raw_project_name"] = project_details["project_name"]
+
     project_details["project_name"] = project_details["project_name"].replace(
         "-", "_"
     )  # TODO: Improve handling of hyphens

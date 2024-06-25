@@ -1,8 +1,8 @@
-   Welcome to the {{ project_name | capitalize }}'s documentation!
+   Welcome to the {{ raw_project_name | capitalize }}'s documentation!
    ================================================================
 
-.. image:: https://github.com/{{ project_author_username }}/{{ project_name }}/actions/workflows/continuous_integration.yml/badge.svg
-    :target: https://github.com/{{ project_author_username }}/{{ project_name }}/actions/workflows/continuous_integration.yml
+.. image:: https://github.com/{{ project_author_username }}/{{ raw_project_name }}/actions/workflows/continuous_integration.yml/badge.svg
+    :target: https://github.com/{{ project_author_username }}/{{ raw_project_name }}/actions/workflows/continuous_integration.yml
     :alt: Continuous Integration (CI) Tests
 
 {{ project_description }}
@@ -10,7 +10,7 @@
 Installation
 ------------
 
-To install {{ project_name }}, simply run:
+To install {{ raw_project_name }}, simply run:
 
 .. code-block:: bash
 
@@ -19,17 +19,11 @@ To install {{ project_name }}, simply run:
 Usage
 -----
 
-After installation, you can use the package by importing it in your project:
-
-.. code-block:: python
-
-    import {{ project_name }}
-
-Or, you can run the package as a script:
+After installation, you can use the package by executing:
 
 .. code-block:: bash
 
-    python -m {{ project_name }}
+    {{ project_name }}
 
 Features
 --------
@@ -50,7 +44,7 @@ Features
 Documentation
 -------------
 
-For more information, you can find the documentation within the `docs` directory or on the project's [GitHub Pages](https://{{ project_author_username }}.github.io/{{ project_name }}/).
+For more information, you can find the documentation within the `docs` directory or on the project's [GitHub Pages](https://{{ project_author_username }}.github.io/{{ raw_project_name }}/).
 
 Contributing
 ------------
