@@ -12,6 +12,14 @@ blankslate.config.constants module
    :undoc-members:
    :show-inheritance:
 
+blankslate.config.dialogue module
+---------------------------------
+
+.. automodule:: blankslate.config.dialogue
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 blankslate.config.paths module
 ------------------------------
 
