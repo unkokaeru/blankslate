@@ -1,8 +1,21 @@
 """command_line.py: Command line interface for the application."""
 
+from ..config.dialogue import Dialogue
 from ..logs.setup_logging import setup_logging
 
 interface_logger = setup_logging()
+
+
+def show_manual() -> None:
+    """
+    Show the manual for the application.
+
+    Notes
+    -----
+    This function shows the manual for the application.
+    """
+    interface_logger.info("Here's a quick guide to get you started:")
+    interface_logger.info(Dialogue.MANUAL)
 
 
 def name_to_shorthand(name: str) -> str:
