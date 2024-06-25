@@ -15,14 +15,14 @@ class Dialogue:
     """
     
     # Manual
-    MANUAL = """
+    MANUAL = r"""
 Now that you've completed setup, you can start creating your project.
 You should open the new directory named after your project, located in
 your Documents/GitHub directory.
 Then, publish your project to GitHub to enable version control and
 other features.
 Next, run the helper script to publish the project to PyPI, among other
-things, using the command `.\scripts\release.sh 0.0.0`, where `0.0.0` is
+things, using the command `.\\scripts\\release.sh 0.0.0`, where `0.0.0` is
 the version number (using the semantic versioning described in
 Blankslate's README.md).
 
