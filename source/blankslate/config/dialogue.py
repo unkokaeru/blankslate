@@ -4,7 +4,7 @@
 class Dialogue:
     """
     Dialogue for the application.
-    
+
     Notes
     -----
     This class contains dialogue used throughout the application.
@@ -13,7 +13,7 @@ class Dialogue:
     attributes and should be named in uppercase with underscores
     separating words.
     """
-    
+
     # Manual
     MANUAL = r"""
 Now that you've completed setup, you can start creating your project.
