@@ -1,5 +1,6 @@
 """main.py: Called when the package is run as a script."""
 
+from .config.dialogue import Dialogue
 from .logs.setup_logging import setup_logging
 
 main_logger = setup_logging()
@@ -14,10 +15,10 @@ def main() -> None:
     This function is the entry point for the application.
     """
     try:
-        main_logger.info("Application started.")
+        main_logger.info(Dialogue.MAIN_STARTED)
     except KeyboardInterrupt:
         print("\n")
-        main_logger.info("Exiting application due to user interrupt...")
+        main_logger.info(Dialogue.EXITED)
 
 
 if __name__ == "__main__":

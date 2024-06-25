@@ -213,6 +213,7 @@ def generate_project(project_details: dict[str, str]) -> None:
                 "config": {
                     "__init__.py": None,
                     "constants.py": None,
+                    "dialogue.py": None,
                     "paths.py": None,
                 },
                 "interface": {

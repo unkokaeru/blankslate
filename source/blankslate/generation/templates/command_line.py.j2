@@ -1,5 +1,6 @@
 """command_line.py: Command line interface for the application."""
 
+from ..config.dialogue import Dialogue
 from ..logs.setup_logging import setup_logging
 
 interface_logger = setup_logging()
@@ -13,4 +14,4 @@ def command_line_interface() -> None:
     -----
     This function is the entry point for the command line interface.
     """
-    interface_logger.info("Command line interface started.")
+    interface_logger.info(Dialogue.CLI_STARTED)
